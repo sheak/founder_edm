@@ -15,6 +15,22 @@ $(function(){
     });
 
 
+    var show_share_dialog = function(){
+        var _share_dialog = $("#share_dialog"),
+            _share_dialog_len = _share_dialog.length;
+
+        if(_share_dialog_len > 0){
+            _share_dialog.show();
+        }else{
+            $(".f_edm_box").append('<div id="share_dialog"></div>');
+        }
+        _share_dialog.css("height" , $(window).height())
+    }
+    $("#f_edm_share_btn a").click(function(){
+        show_share_dialog();
+    });
+
+
 
 
 

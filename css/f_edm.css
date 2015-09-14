@@ -44,7 +44,7 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
 
 /*custom*/
 .f_edm_box{
-    max-width: 640px;
+    max-width: 750px;
     margin: 0 auto;
     background-color: #d70d19;
     overflow: hidden;
@@ -66,7 +66,7 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
 #f_edm_share_btn{
     display: none;
     position: fixed;
-    max-width: 640px;
+    max-width: 750px;
     margin: 0 auto;
     width: 100%;
     bottom:0;
@@ -119,9 +119,14 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
     text-align: center;
     border:2px solid #ffe400;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #ffe400;
     font-size: 30px;
+}
+.f_edm_c_list dl dd a.overed{
+    background: #b10000;
+    border: 0;
+    color: #fd505b;
 }
 
 .f_edm_notice{
@@ -146,13 +151,25 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
     float: left;
     width: 20px;
     position: absolute;
-    top:2px;
+    top:0px;
 }
 .f_edm_notice dl dd{
     float: left;
     width: 95%;
     padding-left: 35px;
 }
+
+#share_dialog{
+  background: url(../imgs/f_edm_share_memb.png) center top no-repeat #000; background-size: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+}
+
+
 
 /* 兼容视网膜屏 */
 @media only screen and (-Webkit-min-device-pixel-ratio: 2) {
@@ -195,7 +212,7 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
 }
 /* 兼容iphone6 */
 @media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){
-    body{font-size:16px!important}.viewport{max-width:640px}
+    body{font-size:16px!important}.viewport{max-width:667px}
     .f_edm_c_list dl{padding: 0 30px 30px 30px;}
     .f_edm_c_list dl dd a{ font-size: 18px; top:7px; width: 44%; height: 45px; line-height: 45px;}
     .f_edm_c_list dl dd p{font-size: 16px; margin-top: 5px;}
