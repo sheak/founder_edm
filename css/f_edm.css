@@ -119,9 +119,14 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
     text-align: center;
     border:2px solid #ffe400;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #ffe400;
     font-size: 30px;
+}
+.f_edm_c_list dl dd a.overed{
+    background: #b10000;
+    border: 0;
+    color: #fd505b;
 }
 
 .f_edm_notice{
