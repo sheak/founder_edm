@@ -428,7 +428,7 @@ wx.ready(function () {
 
   // // 8 界面操作接口
   // // 8.1 隐藏右上角菜单
-  wx.hideOptionMenu();
+  // wx.hideOptionMenu();
   // document.querySelector('#hideOptionMenu').onclick = function () {
   //   wx.hideOptionMenu();
   // };
