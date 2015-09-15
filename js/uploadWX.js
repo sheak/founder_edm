@@ -60,6 +60,7 @@ wx.ready(function () {
       },
       success: function (res) {
         alert('已分享');
+        $("#share_dialog").remove();
       },
       cancel: function (res) {
         alert('已取消');
@@ -86,6 +87,7 @@ wx.ready(function () {
       },
       success: function (res) {
         alert('已分享');
+        $("#share_dialog").remove();
       },
       cancel: function (res) {
         alert('已取消');
@@ -112,6 +114,7 @@ wx.ready(function () {
       },
       success: function (res) {
         alert('已分享');
+        $("#share_dialog").remove();
       },
       cancel: function (res) {
         alert('已取消');
@@ -138,6 +141,7 @@ wx.ready(function () {
       },
       success: function (res) {
         alert('已分享');
+        $("#share_dialog").remove();
       },
       cancel: function (res) {
         alert('已取消');
