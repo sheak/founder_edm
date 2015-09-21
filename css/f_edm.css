@@ -169,6 +169,8 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
   opacity: 0.6;
 }
 #dialogTips{
+    text-align: center;
+    width: 100%;
     position: fixed;
     top:0;
     left:0;
