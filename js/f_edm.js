@@ -22,7 +22,7 @@ $(function(){
         if(_share_dialog_len > 0){
             _share_dialog.show();
         }else{
-            $(".f_edm_box").append('<div id="share_dialog"></div>');
+            $(".f_edm_box").append('<div id="share_dialog"></div><div id="dialogTips"><img src="imgs/f_edm_share_memb.png"></div>');
         }
         _share_dialog.css("height" , $(window).height())
     }
