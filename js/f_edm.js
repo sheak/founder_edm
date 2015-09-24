@@ -2,7 +2,7 @@
 * @Author: sheak
 * @Date:   2015-08-04 13:25:19
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-09-24 12:09:10
+* @Last Modified time: 2015-09-24 16:02:46
 */
 
 $(function(){
@@ -22,7 +22,7 @@ $(function(){
         if(_share_dialog_len > 0){
             _share_dialog.show();
         }else{
-            $(".f_edm_box").append('<div id="share_dialog"></div><div id="dialogTips"><img src="imgs/f_edm_share_memb.png"></div>');
+            $(".f_edm_box").append('<div id="share_dialog"></div><div id="dialogTips"><img src="/assets/wechat/qrcode/imgs/f_edm_share_memb.png"></div>');
         }
         _share_dialog.css("height" , $(window).height())
     }
