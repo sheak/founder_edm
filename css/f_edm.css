@@ -76,6 +76,7 @@ ol,ul,li{list-style:none; margin:0; padding:0;}
     text-align: center;
 }
 #f_edm_share_btn a{
+    display: block;
     text-align: center;
     font-size: 34px;
     color: #c30813;
