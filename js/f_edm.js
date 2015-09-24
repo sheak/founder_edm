@@ -2,7 +2,7 @@
 * @Author: sheak
 * @Date:   2015-08-04 13:25:19
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-09-24 10:07:39
+* @Last Modified time: 2015-09-24 12:09:10
 */
 
 $(function(){
@@ -35,14 +35,7 @@ $(function(){
     $(".f_edm_c_list dl dd a").click(function(){
         window.localStorage.setItem("_isBackTo","back");
     });
-    var getAndClearCache = function(){
-        var _isBackTo = window.localStorage.getItem("_isBackTo");
-        if(_isBackTo && _isBackTo == "back"){
-            window.localStorage.removeItem("_isBackTo");
-            window.location.reload();
-        }
-    }
-    getAndClearCache();
+    
     
 
 

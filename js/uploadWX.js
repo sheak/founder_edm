@@ -441,6 +441,16 @@ wx.ready(function () {
   // document.querySelector('#showOptionMenu').onclick = function () {
   //   wx.showOptionMenu();
   // };
+  
+  var getAndClearCache = function(){
+      window._isBackTo = window.localStorage.getItem("_isBackTo");
+      // console.log(_isBackTo);
+      if(_isBackTo && _isBackTo == "back"){
+          window.localStorage.removeItem("_isBackTo");
+          wx.showOptionMenu();
+      }
+  }
+  getAndClearCache();
 
   // // 8.3 批量隐藏菜单项
   // document.querySelector('#hideMenuItems').onclick = function () {
